@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('./assets/bg.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    color: #fff; 
+}
+
+h1 {
+    color: #f8f4f4;
+    margin-bottom: 20px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+#player-container,
+#versus-container,
+#computer-container {
+    text-align: center;
+    flex: 1;
+    min-width: 20vw;
+    min-height: 50vh;
+}
+
+#player-container,
+#computer-container {
+    border: 2px solid #ff7f50; /* Orange stroke */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0.3rem rgba(243, 239, 239, 0.1);
+}
+
+#versus-container {
+    margin: 0 20px;
+}
+
+.game-btn {
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.game-btn img {
+    max-width: 100%;
+    height: auto;
+}
+
+.result-container {
+    text-align: center;
+    margin-top: 6vh;
+}
+
+#result-message {
+    color: #fceeee;
+    margin-bottom: 3vh;
+}
+
+#play-again-btn {
+    background-color: #e9710f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5vw;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#play-again-btn:hover {
+    background-color: #08f8c4;
+}
+#player-hand,
+#computer-hand {
+    max-width: 130%;
+    height: auto;
+}

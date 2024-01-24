@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game gv</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <h1 class="game-score"><span id="player-score"></span>--<span id="computer-score"></span></h1>
+    <div class="game-container">
+        <div id="player-container">
+            <h2>Your Choice</h2>
+            <div id="player-hand-container">
+                <img src='./assets/scissors-hand.png' id="player-hand" >
+            </div>
+            <div id="player-options">
+                <button id="paper-option" class="game-btn">
+                    <img src="https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/paper-logo.png?raw=true" alt="Paper" height="80px">
+                </button>
+                <button id="rock-option" class="game-btn">
+                    <img src="https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/rock-logo.png?raw=true" alt="Rock" height="80px">
+                </button>
+                <button id="scissors-option" class="game-btn">
+                    <img src="https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/scissors-logo.png?raw=true" alt="Scissors" height="80px">
+                </button>
+            </div>
+        </div>
+        <div id="versus-container">
+            <img src="https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/vs.png?raw=true" alt="" id="vs-logo">
+        </div>
+        <div id="computer-container">
+            <h2>Computer's Choice</h2>
+            <div id="computer-hand-container">
+                <img src='./assets/scissors-hand.png' id="computer-hand" >
+            </div>
+        </div>
+    </div>
+    <div class="result-container">
+        <h2 class="result-message" id="result-message">You <span id="result-winner"></span> the game</h2>
+        <div class="play-again-button">
+            <button type="button" id="play-again-btn">Play Again</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
+
+  
