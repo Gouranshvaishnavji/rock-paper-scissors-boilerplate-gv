@@ -36,8 +36,8 @@ h1 {
 
 #player-container,
 #computer-container {
-    border: 2px solid #ff7f50; /* Orange stroke */
-    border-radius: 10px;
+    border: 2px solid #ff7f50;
+    border-radius: 0.3rem;
     padding: 20px;
     box-shadow: 0 4px 8px 0.3rem rgba(243, 239, 239, 0.1);
 }
